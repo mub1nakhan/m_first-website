@@ -23,5 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/',hello),
     path('bye/', bye),
-    path('', mine_s)
+    path('', mine_s,name="index")
 ]
